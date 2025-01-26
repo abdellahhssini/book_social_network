@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 50MB
+  mail:
+    host: localhost
+    port: 1025
+    username: abdellah
+    password: abdellah
+    protocol: smtp
+springdoc:
+  default-produces-media-type: application/json
+
+server:
+  servlet:
+    context-path: /api/v1/
